@@ -18,19 +18,16 @@ const styles = StyleSheet.create({
     overflow: 'hidden',
   },
   dropdownButtonText: {
-    flex: 1,
     fontSize: 18,
     color: '#000000',
     textAlign: 'center',
     marginHorizontal: 8,
   },
   dropdownCustomizedButtonParent: {
-    flex: 1,
     overflow: 'hidden',
   },
   //////////////////////////////////////
   dropdownRow: {
-    flex: 1,
     height: 50,
     flexDirection: 'row',
     justifyContent: 'center',
@@ -39,14 +36,12 @@ const styles = StyleSheet.create({
     borderBottomWidth: 1,
   },
   dropdownRowText: {
-    flex: 1,
     fontSize: 18,
     color: '#000000',
     textAlign: 'center',
     marginHorizontal: 8,
   },
   dropdownCustomizedRowParent: {
-    flex: 1,
     overflow: 'hidden',
   },
 });
