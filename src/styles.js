@@ -41,6 +41,10 @@ const styles = StyleSheet.create({
   dropdownCustomizedRowParent: {
     overflow: 'hidden',
   },
+  itemSeparator: {
+    borderBottomWidth:StyleSheet.hairlineWidth, 
+    borderBottomColor: 'gray'
+  }
 });
 
 export default styles;
