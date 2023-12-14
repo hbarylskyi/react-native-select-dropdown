@@ -1,5 +1,5 @@
 import React, {forwardRef, useImperativeHandle} from 'react';
-import {View, Text, TouchableOpacity, FlatList} from 'react-native';
+import {View, Text, TouchableOpacity, FlatList, StyleSheet} from 'react-native';
 import styles from './styles';
 import {isExist} from './helpers/isExist';
 import {mergeStyles} from './helpers/mergeStyles';
@@ -187,6 +187,7 @@ const SelectDropdown = (
               onEndReached={() => onScrollEndReached && onScrollEndReached()}
               onEndReachedThreshold={0.5}
               showsVerticalScrollIndicator={showsVerticalScrollIndicator}
+              ItemSeparatorComponent={<View style={styles.itemSeparator}/>}
             />
           </DropdownWindow>
         </DropdownModal>
